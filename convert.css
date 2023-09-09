@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100&family=Roboto+Slab:wght@500&display=swap");
+
+body {
+  background-color: rgb(227, 231, 234);
+}
+
+* {
+  margin: auto;
+  padding: 0;
+}
+.heading {
+  /* margin: 18px 25px; */
+}
+
+.container {
+  /* height:90vh; */
+  /* background-image: url("/bg.png"); */
+  width: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  background-color: rgb(6, 6, 6);
+  height: 50px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  padding: 0 90px;
+  display: flex;
+  list-style: none;
+  justify-content: left;
+  float: right;
+}
+
+.navbar ul li {
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Slab", serif;
+  margin: 2px;
+  padding: 13px;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(249, 244, 244);
+  transition: all;
+  transition-duration: 500ms;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Slab", serif;
+  background-color: rgb(2, 2, 2);
+  height: 30px;
+  color: white;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+}
+
+.navbar img {
+  width: 35px;
+  float: left;
+  clear: none;
+  filter: invert(1);
+  padding: 10px 10px;
+}
+.navbar ul li a:hover {
+  color: rgb(240, 183, 108);
+}
+.container h1 {
+  padding: 7px 11px;
+  margin: 43px 48px;
+
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+.container form {
+  margin: 11px 12px;
+  display: flex;
+  flex-direction: column;
+}
+#country {
+  margin: 16px;
+  padding: 7px 11px;
+  width: 300px;
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Slab", serif;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.myInput {
+  margin:  16px;
+  padding: 7px 11px;
+  width: 275px;
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Slab", serif;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.submit {
+  margin: 22px 52px;
+  padding: 12px 16px;
+  width: 177px;
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  width: 85px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 7px;
+  font: bolder;
+  font-weight: 700;
+  background-color: aliceblue;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(209, 240, 230);
+}
+
+.label {
+  margin: 0 25px;
+  padding: 5px;
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+.tb {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Slab", serif;
+  margin: 15px;
+}
+.output {
+  width: 50vw;
+  font-family: "Anton", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 6px;
+}
+.table {
+ margin:-20px;
+ /* display: none; */
+}

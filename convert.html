@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="convert.css">
+    <link rel="website icon"type="png" href="cc.png">
+    <script src="convert.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="cc.png" alt="Currency Converter">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/about">About</a></li>
+
+        </ul>
+
+    </nav>
+    <div class="container">
+        <h1 class="heading">Convert Currencies</h1>
+        <form action="" method="get">
+            <input type="number" name="quantity" class="myInput" placeholder="Enter the quantity">
+            <label for="currency" class="label">
+                Choose the currency
+            </label>
+            <select name="currency" id="country">
+
+                <option value="INR" class="myOption">Indian Rupee</option>
+                <option value="USD" class="myOption">U.S Dollars</option>
+                <option value="Euro" class="myOption">Euros</option>
+            </select>
+            <div class="submit">
+           <button class="btn" type="Submit">Convert</button>
+        </div>
+        </form>
+        
+        <div class="table">
+            <h2 class="tb">Here's your converted values in different currencies</h2>
+            <table class="output">
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th>Currency Code</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+            Copyright &copy; all rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
