@@ -1,7 +1,7 @@
 const populate = async (value, currency) => {
   myStr = "";
   url =
-    "https://api.currencyapi.com/v3/latest?apikey=cur_live_mTz390r40i4CWgoDRG7grldmqRFyheaiVxg7xdW5&base_currency=" +
+    "add your APIkey from currency API here"+
     currency;
 
   let response = await fetch(url);
